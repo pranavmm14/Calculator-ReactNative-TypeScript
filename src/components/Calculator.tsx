@@ -1,4 +1,3 @@
-// App.tsx
 import React, { useState } from "react";
 import {
     SafeAreaView,
@@ -10,24 +9,9 @@ import {
     TextStyle,
 } from "react-native";
 import { StatusBar } from "expo-status-bar";
-
-// Color palette constants
-const COLORS = {
-    darkGreen: "#122620", // Dark background
-    goldDark: "#B68D40", // Darker gold
-    goldLight: "#D6AD60", // Lighter gold
-    cream: "#FFEBD0", // Light cream
-} as const;
-
-// Type definitions
-type OperationType = "+" | "-" | "*" | "/" | "";
-
-interface ButtonProps {
-    text: string;
-    onPress: () => void;
-    isOperator?: boolean;
-    isEquals?: boolean;
-}
+import { COLORS } from "../constants/colors";
+import { OperationType } from "../types/calculator";
+import { ButtonProps } from "../types/calculator";
 
 const Calculator: React.FC = () => {
     const [currentNumber, setCurrentNumber] = useState<string>("");
@@ -173,7 +157,6 @@ const Calculator: React.FC = () => {
     );
 };
 
-// Styles with TypeScript interface
 interface Styles {
     container: ViewStyle;
     displayContainer: ViewStyle;
@@ -237,7 +220,6 @@ const styles = StyleSheet.create<Styles>({
         borderColor: COLORS.goldLight,
     },
     equalsButton: {
-        // width:10,
         backgroundColor: "green", // Keeping green for equals as requested
     },
     buttonText: {
