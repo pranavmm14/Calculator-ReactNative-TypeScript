@@ -1,10 +1,6 @@
 # Calculator App
 
 A minimalist **calculator app** built with **React Native** and **Expo**, featuring an elegant color scheme and smooth user experience.
-
-![Calculator App UI](App UI.jpg)  
-*Example UI of the Calculator App*
-
   
 ![License](https://img.shields.io/github/license/pranavmm14/Calculator-ReactNative-TypeScript?color=blue)  
 ![Node Version](https://img.shields.io/badge/Node%20Version-v22+-green)
@@ -73,13 +69,6 @@ The app uses a custom color palette to create a modern and visually appealing de
 - **Numbers**: `#B68D40`
 - **Operators**: `#D6AD60`
 - **Display**: `#FFEBD0`
-
-## UI Preview
-
-Below is a preview of how the app looks on different devices:
-
-![UI Preview](path-to-your-image.png)  
-*Responsive UI with the unique color scheme.*
 
 ## Testing
 
