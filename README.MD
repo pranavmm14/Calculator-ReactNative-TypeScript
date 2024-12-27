@@ -2,7 +2,7 @@
 
 A minimalist **calculator app** built with **React Native** and **Expo**, featuring an elegant color scheme and smooth user experience.
 
-![Calculator App UI]("App UI.jpg")  
+![Calculator App UI](App UI.jpg)  
 *Example UI of the Calculator App*
 
   
